@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конверт с сюрпризом</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="cssletter">
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter center" id="1" tabindex="0">
+                        <button class="closeLetter" title="Close letter">Close</button>
+                        <div class="text">
+                            <strong>Поздравляю,</strong>
+                            <p>
+                                С 8 Марта! Желаю тебе счастья, здоровья и вдохновения!
+                            </p>
+                            <p class="sincerely">
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart" id="openEnvelope" aria-label="Open Envelope"></div>
+            </div>
+        </div>
+    </section>
+    <audio id="openSound" src="audio.mpeg"></audio> <!-- Замени путь -->
+    <div class="container-confetti"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
